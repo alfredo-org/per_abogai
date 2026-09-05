@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0","jurisdiction":"Chile","principle":"Las respuestas deben recuperar y verificar la norma vigente antes de citar artículos, plazos o consecuencias.",
+  "primary_source":"Biblioteca del Congreso Nacional de Chile - LeyChile",
+  "documents":[
+    {"id":"civil","name":"Código Civil","area":"civil","bcn_id":"1973","status":"source-linked"},
+    {"id":"penal","name":"Código Penal","area":"penal","bcn_id":"1984","status":"source-linked"},
+    {"id":"comercio","name":"Código de Comercio","area":"comercial","bcn_id":"1974","status":"source-linked"},
+    {"id":"trabajo","name":"Código del Trabajo","area":"laboral","bcn_id":"207436","status":"source-linked"},
+    {"id":"cpc","name":"Código de Procedimiento Civil","area":"procesal-civil","status":"ingestion-pending"},
+    {"id":"cpp","name":"Código Procesal Penal","area":"procesal-penal","status":"ingestion-pending"},
+    {"id":"cot","name":"Código Orgánico de Tribunales","area":"tribunales","status":"ingestion-pending"},
+    {"id":"consumidor","name":"Ley 19.496","area":"consumidor","status":"ingestion-pending"},
+    {"id":"insolvencia","name":"Ley 20.720","area":"insolvencia","status":"ingestion-pending"},
+    {"id":"copropiedad","name":"Ley 21.442","area":"vivienda","status":"ingestion-pending"},
+    {"id":"arrendamiento","name":"Ley 18.101","area":"vivienda","status":"ingestion-pending"},
+    {"id":"familia","name":"Ley 19.968","area":"familia","status":"ingestion-pending"},
+    {"id":"rpj","name":"Ley 20.393","area":"empresa-penal","status":"ingestion-pending"},
+    {"id":"delitos-economicos","name":"Ley 21.595","area":"empresa-penal","status":"ingestion-pending"},
+    {"id":"datos","name":"Protección de datos personales","area":"datos","status":"versioned-ingestion-pending"}
+  ],
+  "article_schema":{"norma":"string","article":"string","paragraph":"string","text":"string","valid_from":"date","valid_to":"date|null","source_url":"string","retrieved_at":"datetime"}
+}
