@@ -1,23 +1,19 @@
 # AbogAI Chile
 
-Orientador jurídico chileno para comprender una situación, identificar el área jurídica y preparar una consulta informada con un abogado.
+Orientador jurídico experimental para Chile. Arquitectura Idea independiente de Forestín Forge.
 
-## Principios
-- No sustituye asesoría jurídica profesional.
-- No inventa artículos, plazos ni jurisprudencia.
-- Las conclusiones jurídicas futuras deben respaldarse con recuperación desde fuentes oficiales vigentes.
-- Corpus versionado por norma, artículo/inciso y período de vigencia.
-- No genera automáticamente demandas, querellas ni escritos para presentar en juicio.
+## Corpus estático Pages v0.2
 
-## Arquitectura Idea
-Proyecto independiente. No usa Forestín Forge.
+Foco actual: Civil, Trabajo, Comercio y Consumidor. Penal queda explícitamente fuera de esta fase.
 
-- Frontend: React + Vite, GitHub Pages.
-- `knowledge/catalog.json`: catálogo y esquema del corpus.
-- Próxima capa: ingesta/versionado BCN LeyChile + índice de recuperación + API de orientación.
+El frontend consulta `public/knowledge/manifest.json` y carga chunks JSON bajo demanda. Los registros son índices/resúmenes de recuperación y conservan la URL oficial de BCN/LeyChile. Antes de entregar plazos, consecuencias o conclusiones jurídicas debe verificarse el texto oficial vigente.
 
-## Estado v0.1
-Interfaz y catálogo implementados. Código Civil, Penal, Comercio y Trabajo tienen fuente oficial enlazada. Los demás módulos están declarados como pendientes de ingesta; la UI no simula que el corpus completo ya fue descargado.
+### Fuentes base
+- Código Civil — BCN idNorma 1973
+- Código del Trabajo — BCN idNorma 207436
+- Código de Comercio — BCN idNorma 1974
+- Ley 19.496 — BCN idNorma 61438
 
-## Seguridad jurídica
-La versión estática clasifica y organiza consultas, pero deliberadamente no entrega citas legales específicas sin una capa de recuperación/verificación. Esa capa es el siguiente hito.
+## Principio
+
+La IA interpreta y explica; el corpus recupera; la fuente oficial valida. No se inventan artículos, plazos ni jurisprudencia.

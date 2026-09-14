@@ -1,10 +1,1 @@
-{
-  "schema_version":"1.0",
-  "jurisdiction":"CL",
-  "source":"Biblioteca del Congreso Nacional / LeyChile",
-  "strategy":"static-pages-pilot",
-  "updated_at":"2026-09-14",
-  "chunks":[
-    {"id":"pilot-core","file":"chunks/pilot-core.json","areas":["civil","laboral","consumidor"],"records":6}
-  ]
-}
+{"schema_version":"1.1","generated_at":"2026-09-14","jurisdiction":"CL","strategy":"static-chunked-legal-corpus","excluded_areas":["penal"],"chunks":[{"id":"civil-core-01","area":"civil","path":"/knowledge/chunks/civil-core-01.json","source_id":"BCN:1973","priority":1},{"id":"laboral-core-01","area":"laboral","path":"/knowledge/chunks/laboral-core-01.json","source_id":"BCN:207436","priority":1},{"id":"comercial-core-01","area":"comercial","path":"/knowledge/chunks/comercial-core-01.json","source_id":"BCN:1974","priority":1},{"id":"consumidor-core-01","area":"consumidor","path":"/knowledge/chunks/consumidor-core-01.json","source_id":"BCN:61438","priority":1},{"id":"pilot-core","area":"mixed-pilot","path":"/knowledge/chunks/pilot-core.json","priority":9}],"retrieval":{"mode":"manifest-first","load":"on-demand","target_chunk_mb":"1-5","future":"lexical + semantic hybrid"},"rules":["No inventar artículos.","Verificar vigencia antes de entregar plazos o consecuencias.","Mantener enlace a fuente oficial BCN.","Los resúmenes de indexación no sustituyen el texto normativo oficial."]}
