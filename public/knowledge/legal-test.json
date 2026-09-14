@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0-test",
+  "jurisdiction": "CL",
+  "purpose": "Corpus jurídico mínimo para probar recuperación local en GitHub Pages",
+  "generated_at": "2026-09-14",
+  "warning": "Dataset de prueba. La respuesta final debe verificar vigencia y fuente oficial antes de orientar al usuario.",
+  "documents": [
+    {
+      "id": "cc-1545",
+      "area": "Civil",
+      "norma": "Código Civil",
+      "bcn_id": "172986",
+      "article": "1545",
+      "title": "Efecto de las obligaciones",
+      "keywords": ["contrato", "cumplimiento", "acuerdo", "obligación", "invalidar"],
+      "text": "Todo contrato legalmente celebrado es una ley para los contratantes, y no puede ser invalidado sino por su consentimiento mutuo o por causas legales.",
+      "status": "vigente_a_verificar_en_consulta",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?idNorma=172986&idParte=8719492"
+    },
+    {
+      "id": "cc-1546",
+      "area": "Civil",
+      "norma": "Código Civil",
+      "bcn_id": "172986",
+      "article": "1546",
+      "title": "Buena fe contractual",
+      "keywords": ["contrato", "buena fe", "obligación", "cumplimiento"],
+      "text": "Los contratos deben ejecutarse de buena fe, y por consiguiente obligan no sólo a lo que en ellos se expresa, sino a todas las cosas que emanan precisamente de la naturaleza de la obligación, o que por la ley o la costumbre pertenecen a ella.",
+      "status": "vigente_a_verificar_en_consulta",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?idNorma=172986&idParte=8719492"
+    },
+    {
+      "id": "ct-159",
+      "area": "Laboral",
+      "norma": "Código del Trabajo",
+      "bcn_id": "207436",
+      "article": "159",
+      "title": "Terminación del contrato de trabajo",
+      "keywords": ["despido", "renuncia", "contrato", "plazo fijo", "término", "trabajo"],
+      "text": "El artículo 159 enumera causales de terminación del contrato de trabajo, entre ellas mutuo acuerdo, renuncia, muerte del trabajador, vencimiento del plazo convenido, conclusión del trabajo o servicio y caso fortuito o fuerza mayor.",
+      "text_mode": "resumen_para_test",
+      "status": "vigencia_debe_verificarse",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?idNorma=207436"
+    },
+    {
+      "id": "ct-160",
+      "area": "Laboral",
+      "norma": "Código del Trabajo",
+      "bcn_id": "207436",
+      "article": "160",
+      "title": "Causales de término sin indemnización",
+      "keywords": ["despido", "causal", "finiquito", "trabajador", "empleador", "acoso", "probidad"],
+      "text": "El artículo 160 contempla causales por las cuales el empleador puede poner término al contrato sin derecho a indemnización, sujetas a los requisitos y hechos que establece la norma.",
+      "text_mode": "resumen_para_test",
+      "status": "vigencia_debe_verificarse",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?idNorma=207436&idParte=8512473"
+    },
+    {
+      "id": "lpdc-1",
+      "area": "Consumidor",
+      "norma": "Ley 19.496 / texto refundido de protección al consumidor",
+      "bcn_id": "1160403",
+      "article": "1",
+      "title": "Ámbito y definiciones",
+      "keywords": ["consumidor", "proveedor", "compra", "servicio", "producto"],
+      "text": "La normativa de protección al consumidor regula las relaciones entre proveedores y consumidores y establece infracciones y procedimientos aplicables en estas materias.",
+      "text_mode": "resumen_para_test",
+      "status": "vigencia_debe_verificarse",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?idNorma=1160403"
+    },
+    {
+      "id": "lpdc-3",
+      "area": "Consumidor",
+      "norma": "Ley 19.496 / texto refundido de protección al consumidor",
+      "bcn_id": "1160403",
+      "article": "3",
+      "title": "Derechos y deberes básicos del consumidor",
+      "keywords": ["consumidor", "información", "precio", "discriminación", "seguridad", "indemnización", "compra"],
+      "text": "El artículo 3 reconoce derechos y deberes básicos del consumidor, incluyendo libre elección, información veraz y oportuna, no discriminación arbitraria y seguridad en el consumo, entre otros.",
+      "text_mode": "resumen_para_test",
+      "status": "vigencia_debe_verificarse",
+      "source": "BCN LeyChile",
+      "source_url": "https://www.bcn.cl/leychile/navegar?i=1160403"
+    }
+  ]
+}
