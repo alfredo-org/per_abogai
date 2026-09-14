@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "jurisdiction":"CL",
+  "source":"BCN / LeyChile",
+  "records":[
+    {"id":"cc-1545","area":"civil","norma":"Código Civil","article":"1545","keywords":["contrato","obligación","cumplimiento","ley para los contratantes"],"summary":"Regla base sobre fuerza obligatoria de los contratos legalmente celebrados.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=1973"},
+    {"id":"cc-1546","area":"civil","norma":"Código Civil","article":"1546","keywords":["contrato","buena fe","obligaciones"],"summary":"Regla base de ejecución de los contratos de buena fe.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=1973"},
+    {"id":"ct-159","area":"laboral","norma":"Código del Trabajo","article":"159","keywords":["contrato de trabajo","término","renuncia","mutuo acuerdo","plazo"],"summary":"Causales generales de terminación del contrato de trabajo reguladas en este artículo.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=207436"},
+    {"id":"ct-160","area":"laboral","norma":"Código del Trabajo","article":"160","keywords":["despido","conducta","incumplimiento","contrato de trabajo"],"summary":"Causales de terminación del contrato sin derecho a indemnización contempladas por este artículo.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=207436"},
+    {"id":"lpdc-1","area":"consumidor","norma":"Ley 19.496","article":"1","keywords":["consumidor","proveedor","acto de consumo"],"summary":"Conceptos y definiciones fundamentales de la legislación de protección al consumidor.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=61438"},
+    {"id":"lpdc-3","area":"consumidor","norma":"Ley 19.496","article":"3","keywords":["derechos consumidor","información","seguridad","reparación"],"summary":"Derechos y deberes básicos del consumidor contemplados en la ley.","source_url":"https://www.bcn.cl/leychile/navegar?idNorma=61438"}
+  ]
+}
